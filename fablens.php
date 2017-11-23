@@ -32,9 +32,9 @@
             </div>
 
             <h2 class="text-uppercase"><strong>Partenaires et financeurs</strong></h2>
-            <div class="col-lg-12">
-                <img id="partners_banner" src="img/logo/bandeau_logo_lens.jpg" alt="bandeau_logo">
-            </div>
+           <div class="col-lg-12">
+               <img id="partners_banner" src="img/logo/bandeau_logo_lens.jpg" alt="bandeau_logo">
+           </div>
 
         </div>
     </div>

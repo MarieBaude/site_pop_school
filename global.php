@@ -1,6 +1,6 @@
 <?php
 
-  //Mail du formulaire de contact
+  //Mail du formulaire de contact = popschool@pop.eu.com
   $mailContact = "popschool@pop.eu.com";
   //Mail du newsletter
   $mailNewletter = "popschool@pop.eu.com";

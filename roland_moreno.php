@@ -18,7 +18,7 @@
     <?php include "header.php"; ?>
 
     <div class="jumbotron">
-      <h2 class="text-uppercase color_blue"><strong>>promo roland moreno</strong></h2>
+      <h2 class="text-uppercase color_blue"><strong>promo roland moreno</strong></h2>
     </div>
 
 

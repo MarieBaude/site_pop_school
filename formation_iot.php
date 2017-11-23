@@ -17,7 +17,7 @@
 
     <?php include "header.php"; ?>
 
-    <div class="jumdotron-custom">
+    <div class="jumbotron-custom">
       <h2 class="text-uppercase color_white"><strong>formation iot maker</strong></h2>
       <p><a class="btn btn-primary btn-lg" href="register.php" role="button">S'inscrire</a></p>
     </div>

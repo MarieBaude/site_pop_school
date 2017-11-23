@@ -3,12 +3,12 @@
 <footer>
   <div class="container footer_top">
     <div class="row">
-      <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2 item center-block text-center">
+      <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 item center-block text-center">
           <h3>POP School</h3>
           <img class="logo_pop" src="img/popschool.png" alt="logo_popschool">
       </div>
 
-      <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2 item">
+      <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 item xs-center">
           <h3>Lien</h3>
           <ul class="footer_link">
               <li><a href="mentions.php">Mentions légales</a></li>
@@ -18,7 +18,7 @@
           </ul>
       </div>
 
-      <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 item text">
+      <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 item text xs-center">
           <h3>POP</h3>
           <div class="icon_pop">
               <a href="<?php echo $linkPopPlace; ?>" target="_blank">
@@ -39,14 +39,14 @@
           </div>
       </div>
 
-      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 item text">
+      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 item text xs-center">
         <h3>Newsletter</h3>
         <form method="post" id="formulaire">
           <div id="pageMessages">
 
           </div>
           <input type="email" class="text_newletter" name="text_newletter" placeholder="Entrez votre email"><br>
-          <input type="submit" class="button_newletter" name="button_newletter" onclick="createAlert('','Merci!','Vous êtes bien inscrit à la newsletter.','success',true,true,'pageMessages');"value="S'inscrire">
+          <input type="submit" class="button_newletter" name="button_newletter" onclick="createAlert();" value="S'inscrire">
         </form>
       </div>
     </div>

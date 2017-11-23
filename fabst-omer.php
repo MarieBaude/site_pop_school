@@ -22,13 +22,13 @@
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="text-uppercase"><strong>le lieu</strong></h2>
-                <h2>Prochainement...</h2>
+                <p>Prochainement...</p>
             </div>
 
-            <h2 class="text-uppercase"><strong>Partenaires et financeurs</strong></h2>
-            <div class="col-lg-12">
-                <img id="partners_banner" src="img/logo/bandeau_logo_omer.png" alt="bandeau_logo">
-            </div>
+<h2 class="text-uppercase"><strong>Partenaires et financeurs</strong></h2>
+           <div class="col-lg-12">
+               <img id="partners_banner" src="img/logo/bandeau_logo_omer.png" alt="bandeau_logo">
+           </div>
 
         </div>
     </div>

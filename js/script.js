@@ -54,6 +54,7 @@ $(document).ready(function() {
 });
 
 /*----NEWLETTER_CONFIRME----*/
+
 function createAlert(title, summary, details, severity, dismissible, autoDismiss, appendToId) {
   var iconMap = {
     info: "fa fa-info-circle",
@@ -66,6 +67,8 @@ function createAlert(title, summary, details, severity, dismissible, autoDismiss
 
   var alertClasses = ["alert", "animated", "flipInX"];
   alertClasses.push("alert-" + severity.toLowerCase());
+
+  var regex = /^[a-zA-Z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$/;
 
   if (dismissible) {
     alertClasses.push("alert-dismissible");
@@ -112,7 +115,6 @@ function createAlert(title, summary, details, severity, dismissible, autoDismiss
     }
   }
 
-
   if (dismissible) {
     var msgClose = $("<span />", {
       "class": "close", // you need to quote "class" since it's a reserved keyword
@@ -122,6 +124,18 @@ function createAlert(title, summary, details, severity, dismissible, autoDismiss
   }
 
   $('#' + appendToId).prepend(msg);
+
+  if(!regex.test(champ.value)) {
+      surligne(champ, true);
+      document.getElementById('#pageMessages').innerHTML =('','Merci!','Vous êtes maintenant inscrit à la newsletter','success',true,true,'pageMessages');
+      return false;
+   }
+
+   else {
+      surligne(champ, false);
+      document.getElementById('#pageMessages').innerHTML =('Opps!','Il y a eu une erreur','Merci entrez un email valide','danger',true,false,'pageMessages');
+      return true;
+   }
 
   if (autoDismiss) {
     setTimeout(function() {

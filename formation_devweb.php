@@ -1,4 +1,4 @@
-color_white<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -17,9 +17,9 @@ color_white<!DOCTYPE html>
 
     <?php include "header.php"; ?>
 
-    <div class="jumdotron-custom">
-      <h2 class="text-uppercase color_white"><strong>formation de développeur d’applications web / mobile</strong></h2>
-      <p><a class="btn btn-primary btn-lg" href="register.php" role="button">S'inscrire</a></p>
+    <div class="jumbotron-custom">
+        <h2 class="text-uppercase color_white"><strong>formation de développeur d’applications web / mobile</strong></h2>
+        <p><a class="btn btn-primary btn-lg" href="register.php" role="button">S'inscrire</a></p>
     </div>
 
     <div class="container">
@@ -39,7 +39,7 @@ color_white<!DOCTYPE html>
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
                     <div class="caption">
-                        <h2 class="text-center block">+ 36 000</h2>
+                        <p class="text-center block"><span class="bigtext">+ 36 000</span></p>
                         <h3 class="text-center block">créations de postes d’ici 5 ans.</h3>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ color_white<!DOCTYPE html>
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
                     <div class="caption">
-                        <h2 class="text-center block">+ 50 000</h2>
+                        <p class="text-center block"><span class="bigtext">+ 50 000</span></p>
                         <h3 class="text-center block">postes non pourvus dans les métiers du numérique.</h3>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ color_white<!DOCTYPE html>
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
                     <div class="caption">
-                        <h2 class="text-center block">+ 900 000</h2>
+                        <p class="text-center block"><span class="bigtext">+ 900 000</span></p>
                         <h3 class="text-center block">postes dans le numérique en Europe depuis 2013.</h3>
                     </div>
                 </div>

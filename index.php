@@ -13,14 +13,11 @@
     <title>POP School - Accueil</title>
 </head>
 
-<body>
+<body class="bg_index">
     <?php include "header.php"; ?>
     <div id="particles">
         <div id="intro">
             <img id="logo_popschool" src="img/logo/popschool.png" alt="logo pop school">
-            <div class="mouse">
-                <span></span>
-            </div>
         </div>
     </div>
 
@@ -34,7 +31,6 @@
                     <h2 class="text-center text-uppercase color_blue">
                         <strong>Les formations POP School sont faites pour toi</strong>
                     </h2>
-                    <br>
                     <p class="color_blue">
                         POP School propose une méthode d’apprentissage innovante, immersive, agile et horizontale, privilégiant le pair à pair, le mode projet et le développement de la capacité de collaboration. Il s'agit d'une démarche expérimentale, complémentaire à l'offre de formation secondaire et professionnelle, qui permet de répondre de manière agile à des besoins non couverts aujourd'hui, dans un double objectif d'adaptation et de développement de connaissances.
                     </p>
@@ -189,7 +185,7 @@
 
                 <div class="col-lg-3 col-sm-4 text-center">
                     <img class="rounded-circle" src="img/team/Brahim_Sellam.jpg" alt="brahim sellam">
-                    <a href="https://www.linkedin.com/in/brahim-sellam-337a8928/">
+                    <a href="https://www.linkedin.com/in/brahim-sellam-1735b113a/">
                         <h3 class="staff_name">Brahim Sellam .<strong>in</strong></h3>
                     </a>
                     <p class="text-left color_blue">

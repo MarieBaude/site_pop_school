@@ -32,10 +32,10 @@
                 <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2544.609399801007!2d3.515725214842203!3d50.3738374507647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2edd9e9607687%3A0xfac745f81d635c4b!2sNouvelle+Forge!5e0!3m2!1sfr!2sfr!4v1510952487744" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
 
-            <h2 class="text-uppercase"><strong>Partenaires et financeurs</strong></h2>
+            <h2 class="text-uppercase"><strong>Partenaires et Financeurs</strong></h2>
 
             <div class="col-lg-12">
-                <img id="partners_banner" src="img/logo/bandeau_logo_vals.png" alt="bandeau_logo">
+                <img id="partners_banner" src="img/logo/bandeau_logo.png" alt="bandeau_logo">
             </div>
 
         </div>

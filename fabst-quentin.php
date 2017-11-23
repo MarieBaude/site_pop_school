@@ -28,15 +28,16 @@
             <div class="col-sm-6">
                 <img class="location" src="#" alt="">
             </div>
-            <div class="col-sm-12">
+             <div class="col-sm-12">
               <h2 class="text-uppercase"><strong>L'adresse</strong></h2>
               <p>Faubourg Numérique – 101 rue du Général Leclerc, 02100, Saint-Quentin</p>
             </div>
 
-            <h2 class="text-uppercase"><strong>Partenaires et financeurs</strong></h2>
-            <div class="col-lg-12">
-                <img id="partners_banner" src="img/logo/bandeau_logo_quentin.jpg" alt="bandeau_logo">
-            </div>
+
+          <h2 class="text-uppercase"><strong>Partenaires et financeurs</strong></h2>
+           <div class="col-lg-12">
+               <img id="partners_banner" src="img/logo/bandeau_logo_quentin.jpg" alt="bandeau_logo">
+           </div>
 
         </div>
     </div>
